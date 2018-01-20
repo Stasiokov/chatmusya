@@ -16,4 +16,9 @@ public class MessageDaoImpl implements MessageDao {
     public List<Message> findAll() {
         return null;
     }
+
+    @Override
+    public List<Message> findLastFivesMsg() {
+        return null;
+    }
 }

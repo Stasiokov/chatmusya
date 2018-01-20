@@ -7,5 +7,6 @@ import java.util.List;
 public interface MessageDao {
     void save(Message message);
     List<Message>findAll();
+    List<Message>findLastFivesMsg();
 
 }
