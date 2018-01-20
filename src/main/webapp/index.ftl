@@ -6,5 +6,6 @@
 </head>
 <body>
     <h2>Hello friends!</h2>
+    <a href="/chatmusya">go to hello</a>
 </body>
 </html>
