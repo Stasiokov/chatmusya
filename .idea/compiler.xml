@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="chatmusya" />
         <module name="serverGame" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chatmusya" target="1.8" />
       <module name="serverGame" target="1.8" />
     </bytecodeTargetLevel>
   </component>
