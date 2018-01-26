@@ -3,6 +3,7 @@ package com.stasio.chatmusya.entity;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "message")
 public class Message {
 
     @Id
@@ -15,6 +16,14 @@ public class Message {
 
     public Message(String msg) {
         this.msg = msg;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getMsg() {

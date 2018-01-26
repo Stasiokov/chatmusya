@@ -1,6 +1,10 @@
-.chat-window{
+#chatWindow{
+    overflow: auto;
     height: 300px;
     width: 1000px;
     border: 3px solid black;
     background-color: cornsilk;
+}
+#chatWindow p{
+    margin: 2px 0px;
 }

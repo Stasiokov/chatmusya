@@ -1,4 +1,12 @@
 package com.stasio.chatmusya.service;
 
-public class MessageService {
+import com.stasio.chatmusya.entity.Message;
+
+import java.util.List;
+
+public interface MessageService {
+
+    void save(Message message);
+    List<Message>findAll();
+
 }
